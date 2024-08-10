@@ -1,0 +1,78 @@
+﻿FreeCommander - 文件夹列表 2024/8/9 23:08:53
+
+[dm]	[attr]	[s_bytes]	[ne]
+        C:\fortran\EFDCPlus_Stable\EFDC\MPI_Communication
+2024.07.27 09:27:45	A-------	14,054	Communicate_3D_0.f90
+2024.07.27 09:27:45	A-------	78,661	Communicate_Groups.f90
+2024.07.27 09:27:45	A-------	7,675	Communicate_W.f90
+2024.07.27 09:27:45	A-------	10,462	mod_allreduce.f90
+2024.07.27 09:27:45	A-------	29,800	Mod_Broadcast_Routines.f90
+2024.07.27 09:27:45	A-------	19,035	mod_Communicate_Drifters.f90
+2024.07.27 09:27:45	A-------	89,420	mod_Communicate_Ghost_Routines.f90
+2024.07.27 09:27:45	A-------	6,247	Mod_Gather_Drifter.f90
+2024.07.27 09:27:45	A-------	27,606	Mod_Gather_Soln.f90
+2024.07.27 09:27:45	A-------	3,728	Mod_SEND_RECV.f90
+----------------------------------------------------------------------------------------------------
+文件夹: "MPI_Communication"          文件数: 10          文件大小: 286,688
+
+        C:\fortran\EFDCPlus_Stable\EFDC\MPI_Domain_Decomp
+2024.07.27 09:27:45	A-------	18,622	Allocate_Domain_Decomp.f90
+2024.07.27 09:27:45	A-------	2,553	Child_Grid.f90
+2024.07.27 09:27:45	A-------	5,259	Congrad_MPI.f90
+2024.07.27 09:27:45	A-------	2,262	Parent_Grid.f90
+2024.07.27 09:27:45	A-------	3,610	Read_JSON_Decomp.f90
+2024.07.27 09:27:45	A-------	7,509	Scan_Cell.f90
+2024.07.27 09:27:45	A-------	4,271	Scan_JSON_Decomp.f90
+----------------------------------------------------------------------------------------------------
+文件夹: "MPI_Domain_Decomp"          文件数: 7          文件大小: 44,086
+
+        C:\fortran\EFDCPlus_Stable\EFDC\MPI_Mapping
+2024.07.27 09:27:45	A-------	2,307	Calculate_Local_Shear.f90
+2024.07.27 09:27:45	A-------	1,744	Create_List_No_Ghost_Cells.f90
+2024.07.27 09:27:45	A-------	71,417	Global_Mapping_Routines.f90
+2024.07.27 09:27:45	A-------	8,560	Map_Connectors.f90
+2024.07.27 09:27:45	A-------	18,370	Map_Discharge_BCs.f90
+2024.07.27 09:27:45	A-------	1,900	Map_Jet_Plume.f90
+2024.07.27 09:27:45	A-------	18,035	Map_OpenBC_Conc.f90
+2024.07.27 09:27:45	A-------	4,861	Map_OpenBC_Pressure.f90
+2024.07.27 09:27:45	A-------	15,081	Map_River.f90
+2024.07.27 09:27:45	A-------	16,695	Mod_Assign_Loc_Glob_For_Write.f90
+2024.07.27 09:27:45	A-------	27,323	Mod_Map_Gather_Sort.f90
+2024.07.27 09:27:45	A-------	12,862	Mod_Map_Global_to_Local.f90
+2024.07.27 09:27:45	A-------	34,042	Mod_Map_Soln.f90
+2024.07.27 09:27:45	A-------	19,042	Mod_Sort_Global_Soln.f90
+2024.07.27 09:27:45	A-------	4,943	ReMap_RSSBC.f90
+2024.07.27 09:27:45	A-------	8,467	Setup_Local_to_Global.f90
+2024.07.27 09:27:45	A-------	1,469	Setup_MapBackToGlobal.f90
+----------------------------------------------------------------------------------------------------
+文件夹: "MPI_Mapping"          文件数: 17          文件大小: 267,118
+
+        C:\fortran\EFDCPlus_Stable\EFDC\MPI_Out
+2024.07.27 09:27:45	A-------	1,180	FormatOutputMPI.f90
+2024.07.27 09:27:45	A-------	35,402	Mod_Map_Write_EE_Binary.f90
+2024.07.27 09:27:45	A-------	16,762	Mod_Map_Write_NetCDF.f90
+2024.07.27 09:27:45	A-------	6,020	Mod_Write_Cell_Map_.f90
+2024.07.27 09:27:45	A-------	3,083	Write_Array_Sizes.f90
+2024.07.27 09:27:45	A-------	1,729	Write_Mapping_3Dgraphics.f90
+2024.07.27 09:27:45	A-------	1,587	WriteCellMapLogging.f90
+----------------------------------------------------------------------------------------------------
+文件夹: "MPI_Out"          文件数: 7          文件大小: 65,763
+
+        C:\fortran\EFDCPlus_Stable\EFDC\MPI_Utilities
+2024.07.27 09:27:45	A-------	2,913	Initialize_MPI.f90
+2024.07.27 09:27:45	A-------	7,743	Mod_MPI_Helper_Functions.f90
+2024.07.27 09:27:45	A-------	11,023	mod_Variables_MPI.f90
+2024.07.27 09:27:45	A-------	2,355	mod_Variables_MPI_Concentration.f90
+2024.07.27 09:27:45	A-------	4,980	mod_Variables_MPI_MapGatherSort.f90
+2024.07.27 09:27:45	A-------	8,273	mod_Variables_MPI_Mapping.f90
+2024.07.27 09:27:45	A-------	13,120	mod_Variables_MPI_Write_Out.f90
+2024.07.27 09:27:45	A-------	3,763	Report_Max_Min_Timing.f90
+2024.07.27 09:27:45	A-------	2,864	Setup_MPI_Debug_File.f90
+2024.07.27 09:27:45	A-------	7,522	Setup_MPI_Topology.f90
+2024.07.27 09:27:45	A-------	7,311	Task_Division.f90
+----------------------------------------------------------------------------------------------------
+文件夹: "MPI_Utilities"          文件数: 11          文件大小: 71,867
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+摘要 - 文件夹: 5          文件: 52          文件大小: 735,522 字节(s)
